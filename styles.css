@@ -1,0 +1,358 @@
+* {
+  margin: 0;
+  outline: 0;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.bx-cog {
+    animation: rotate 2s linear infinite;
+}
+
+.bx:not(.bx-caret-down, 
+.bx-caret-up, .bx-cog, 
+.bx-dots-vertical-rounded, 
+.bx-menu-alt-left,
+.bx-home,
+.bx-wallet-alt,
+.bx-briefcase,
+.bx-chat,
+.bx-gift,
+.bx-message-alt-add,
+.bx-download,
+.bx-street-view,
+.bx-package,
+.bx-message-dots,
+.bx-world,
+.bx-medal,
+.bx-album,
+.bx-video,
+.bx-film,
+.bx-list-ul,
+.bx-grid,
+.bx-group,
+.bx-log-out) {
+  font-size: 30px;
+  margin-left: 15px;
+  color: black;
+}
+.btn .bx-home, 
+.btn .bx-wallet-alt,
+.btn .bx-briefcase,
+.btn .bx-chat,
+.btn .bx-gift,
+.btn .bx-message-alt-add,
+.btn .bx-download,
+.btn .bx-street-view,
+.btn .bx-package,
+.btn .bx-message-dots,
+.btn .bx-world,
+.btn .bx-medal,
+.btn .bx-album,
+.btn .bx-video,
+.btn .bx-film,
+.btn .bx-list-ul,
+.btn .bx-grid,
+.btn .bx-group,
+.btn .bx-log-out {
+    font-size: 30px;
+}
+.bx-cog, .bx-menu-alt-left, .bx-dots-vertical-rounded {
+    color: white;
+    font-size: 20px;
+}
+
+.bx-caret-down {
+    font-size: 25px;
+    color: red;
+}
+.bx-caret-up {
+    font-size: 25px;
+    color: green;
+}
+.bx-check-circle, .bx-x {
+    color: black;
+}
+.bx-up-arrow-alt, 
+.bx-down-arrow-alt, 
+.bx-bar-chart-square, 
+.bx-user-circle, 
+.bx-package,
+.bx-file {
+    color: black;
+}
+.nav-bar {
+  padding: 15px;
+}
+
+.dashboard {
+    height: 200px;
+    max-height: 200px;
+}
+.pt-5 .total-earnings {
+    background: #4556F8;
+}
+.box {
+    width: 30px;
+    height: 30px;
+}
+.box1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 7px;
+}
+.pt-5 .account-balance {
+    background: #1bca1b;
+}
+
+.pt-5 .total-cashout {
+    background: lightseagreen;
+}
+.pt-5 .pending-cashout {
+    background-color: yellow;
+}
+.pt-5 .referral-income {
+    background-color: orange;
+}
+
+/* progress bar for account balance */
+.progress-bar-container {
+    width: 100%;
+    height: 4px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress-bar-container .progress-bar {
+    width: 40%;
+    height: 100%;
+    background-color: blue;
+    border-radius: 4px 0 0 4px;
+}
+
+/* progress bar for total cashout */
+.cashout-progress-bar-container {
+    width: 100%;
+    height: 5px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.cashout-progress-bar-container .cashout-progress-bar {
+    width: 60%;
+    height: 100%;
+    background-color: magenta;
+    border-radius: 4px 0 0 4px;
+}
+
+/* progress bar for pending cashout */
+.pending-progress-bar-container {
+    width: 100%;
+    height: 5px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.pending-progress-bar-container .pending-progress-bar {
+    width: 30%;
+    height: 100%;
+    background-color: red;
+    border-radius: 4px 0 0 4px;
+}
+
+/* progress bar for referral income */
+.referral-progress-bar-container {
+    width: 100%;
+    height: 5px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.referral-progress-bar-container .referral-progress-bar {
+    width: 50%;
+    height: 100%;
+    background-color: yellow;
+    border-radius: 4px 0 0 4px;
+}
+
+.pie-chart {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: conic-gradient(#6210cd 0% 12%, #e0e0e0 88% 100%);
+}
+.pie-chart-gifts {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: conic-gradient(lightseagreen 0% 24%, #e0e0e0 76% 100%);
+}
+
+.pt-5 .youtube {
+    background: #1ee71e;
+}
+
+.pie-chart-youtube {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: conic-gradient(magenta 0% 24%, #e0e0e0 76% 100%);
+}
+
+.pt-5 .tiktok {
+    background: yellow;
+}
+
+.pie-chart-tiktok {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: conic-gradient(red 0% 24%, #e0e0e0 76% 100%);
+}
+
+.pt-5 .survey {
+    background: #66fe66;
+}
+
+.pie-chart-survey {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: conic-gradient(yellow 0% 24%, #e0e0e0 76% 100%);
+}
+
+.pt-5 .ads {
+    background: yellowgreen;
+}
+
+.pie-chart-ads {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: conic-gradient(#7f0202 0% 24%, #e0e0e0 76% 100%);
+}
+
+.invite-url {
+    width: 100%;
+    border: 0;
+    border-radius: 7px;
+}
+.invite-link .btn-copy {
+    width: 30%;
+    background: #561ad8;
+}
+.invite-link .btn-copy:hover {
+    background: #8859ee;
+}
+
+/*Menu
+_____________ 
+_____________*/
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: -250px; /* Initially hidden off-screen */
+    width: 250px;
+    height: 100%;
+    background-color: #ffffff;
+    z-index: 1000; /* Ensure the menu is above other content */
+    transition: left 0.3s ease; /* Smooth slide-in effect */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Slight shadow for better contrast */
+    overflow-y: auto; /* Allow scrolling if content overflows */
+    display: none;
+}
+
+.menu.open {
+    left: 0; /* Slide in the menu */
+    display: block;
+}
+
+/* Main content style when the menu is open */
+body.menu-open .dashboard {
+    margin-left: 250px; /* Adjust the dashboard margin when the menu is open */
+    transition: margin-left 0.3s ease; /* Smooth transition for the content */
+}
+.menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    z-index: 998; /* Just below the menu */
+    display: none;
+}
+
+/* Show overlay when the menu is open */
+.menu.open ~ .menu-overlay {
+    display: block;
+}
+
+.menu p {
+    margin: 0;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.d-flex i {
+    font-size: 24px;
+    margin-right: 8px;
+}
+
+.d-flex p {
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#list-dots {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.9s ease, opacity 0.5s ease;
+    list-style: none;
+    padding-left: 3rem;
+    margin: 0;
+}
+
+#list-dots.active {
+    max-height: 500px;
+    opacity: 1;
+}
+#list-levels {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.9s ease, opacity 0.5s ease;
+    list-style: none;
+    padding-left: 5rem;
+    margin: 0;
+}
+
+#list-levels.active-level {
+    max-height: 500px;
+    opacity: 1;
+}
+
+.menu {
+    display: none;
+}
+a[href="dashboard.html"] {
+   text-decoration: none;
+}
