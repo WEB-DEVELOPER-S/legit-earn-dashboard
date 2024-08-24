@@ -31,19 +31,3 @@ function displayLevels() {
     }
 }
 
-function displayMenu() {
-    let menu = document.getElementById('menu');
-    let overlay = document.querySelector('.menu-overlay');
-    let body = document.body;
-
-    // Toggle the menu and overlay
-    if (menu.classList.contains('open')) {
-        menu.classList.remove('open');
-        overlay.style.display = 'none';
-        body.classList.remove('menu-open');
-    } else {
-        menu.classList.add('open');
-        overlay.style.display = 'block';
-        body.classList.add('menu-open');
-    }
-}
