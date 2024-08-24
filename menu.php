@@ -132,7 +132,7 @@
                 <i id="chevron-icon" class='bx bx-chevron-right text-primary ms-auto'></i>
             </div>
             <ul class="list-dots" id="list-dots">
-                <li><a href="withdrawAccountBalance.php">Account Balance</a></li>
+                <li><a href="#">Account Balance</a></li>
                 <li><a href="#">First Activities</a></li>
                 <li><a href="#">Ads Balance</a></li>
                 <li><a href="#">Tiktok Balance</a></li>
